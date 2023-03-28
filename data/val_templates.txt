@@ -1,0 +1,20 @@
+What's your credit card? {{credit_card}}
+I would like to remove my kid {{first_name}} from the will. How do I do that?
+You said your email is {{email}}. Is that correct?
+My name appears incorrectly on credit card statement could you please correct it to {{prefix_female}} {{name_female}}?
+I'm so jealous! said {{first_name}} to {{first_name}}
+So where are we meeting? There's this nice new place downtown. Cool, what's the address? Oh do they serve vegan stuff? It's in {{address}}
+I need to add my addresses, here they are: {{address}}, and {{address}}
+I'm moving out of {{country}}, so please cancel my subscription
+The {{company}} Orchestra was founded in 1947. Since then, it has grown from a volunteer community orchestra to a fully professional orchestra serving Southern {{country}}
+{{company}} is a multinational investment bank and financial services company
+When: {{date_time}}\nWhere: {{city}} Country Club.
+Please tell me your date of birth. It's {{date_of_birth}}
+We'll meet {{day_of_week}} at {{organization}}, {{building_number}} {{street_name}}, {{city}}
+Can someone call me on {{phone_number}}? I have some questions about opening an account.
+Could you please send me the last billed amount for cc {{credit_card}} on my e-mail {{email}}?
+I want to cancel my card {{credit_card}} because I lost it
+You can email me your portfolio at the following address {{email}}
+If I could go anywhere right now, I would go to my favorite city {{city}}
+What's your last name? {{prefix_female}} {{last_name}}
+You can call me on {{day_of_week}} on the number {{phone_number}}

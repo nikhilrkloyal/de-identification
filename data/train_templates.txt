@@ -1,0 +1,38 @@
+I have lost my card {{credit_card}}. Could you please block my credit card ASAP ? My name is {{name}}.
+Are there any charges applied to withdraw money from ATM with the card {{credit_card}}
+Could you please send me the last billed amount for cc {{credit_card}} on my e-mail {{email}}?
+Please transfer all funds from my account to this hackers' {{email}}
+Can you cc me in that at this email: {{email}}?
+{{first_name}}, can I please speak to your boss?
+My name appears incorrectly on credit card statement could you please correct it to {{prefix_male}} {{name_male}}?
+For my take on {{prefix_female}} {{last_name_female}}, see Guilty Pleasures: 5 Musicians Of The 70s You're Supposed To Hate (But Secretly Love)
+have you heard {{name}} speak yet?
+Hello, this is {{prefix_male}} {{name_male}}. Who are you?
+I want to add {{prefix_male}} {{name}} as a beneficiary to my account
+Meet me at {{address}}
+The restaurant is located at {{address}}. It serves great food.
+I'd like it to be sent to {{address}}
+I'd like to call a taxi to {{address}}. Please call me when you're here.
+I'll meet you at {{address}} after the concert.
+I'm originally from {{country}}
+I will be travelling to {{country}} next week, so I need my passport to be ready by then
+{{company}} is a design agency based in {{country}}.
+{{country}} was super fun to visit!
+I work for {{company}}
+{{name}} from {{company}} is the keynote speaker
+The address of {{company}} is {{address}}
+It's like that since {{date_of_birth}}
+I saw him last on {{date_of_birth}}
+You're up for this shift next {{day_of_week}}
+Date: {{date_time}}\nName: {{name}}\nPhone: {{phone_number}}
+{{prefix}} {{last_name}} flew to {{city}} on {{day_of_week}} morning.
+Please have the manager call me at {{phone_number}} I'd like to join accounts with ms. {{first_name}}
+How can we reach you? You can call {{phone_number}}
+I would like to stop receiving messages to {{phone_number}}
+I have done an online order but didn't get any message on my registered {{phone_number}}. Could you please look into it ?
+{{company}} is the brainchild of our 3 founders: {{last_name}}, {{last_name}} and {{last_name}}.  The idea was born (on the beach) while they were constructing a website to be the basis of another start-up idea.
+What's your email? {{email}}
+Please update the billing address with {{address}} for this card: {{credit_card}}
+I once lived in {{address}}. I now live in {{address}}
+Please charge my credit card. Number is {{credit_card}}
+She was born on {{date_of_birth}}. Her maiden name is {{prefix_female} {{last_name}}
