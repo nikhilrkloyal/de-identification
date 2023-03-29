@@ -9,3 +9,4 @@ datasets
 wandb
 evaluate
 presidio-evaluator
+transformers-interpret
