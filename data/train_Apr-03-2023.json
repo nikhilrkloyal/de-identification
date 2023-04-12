@@ -1,0 +1,3056 @@
+[
+    {
+        "full_text": "Could you please send me the last billed amount for cc 2285114285088267 on my e-mail AlishaHope@jourrapide.com?",
+        "masked": "Could you please send me the last billed amount for cc {{CREDIT_CARD}} on my e-mail {{EMAIL_ADDRESS}}?",
+        "spans": [
+            {
+                "entity_type": "EMAIL_ADDRESS",
+                "entity_value": "AlishaHope@jourrapide.com",
+                "start_position": 85,
+                "end_position": 110
+            },
+            {
+                "entity_type": "CREDIT_CARD",
+                "entity_value": "2285114285088267",
+                "start_position": 55,
+                "end_position": 71
+            }
+        ],
+        "template_id": 2,
+        "metadata": null
+    },
+    {
+        "full_text": "Can you please help me find the restaurant? It is supposed to be at ul. Gawronów 53 Sara Harbor\n Apt. 493\n Katowice\n Poland 55756",
+        "masked": "Can you please help me find the restaurant? It is supposed to be at {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "ul. Gawronów 53 Sara Harbor\n Apt. 493\n Katowice\n Poland 55756",
+                "start_position": 68,
+                "end_position": 129
+            }
+        ],
+        "template_id": 46,
+        "metadata": null
+    },
+    {
+        "full_text": "are there any charges applied to withdraw money from atm with the card 30532057766616",
+        "masked": "Are there any charges applied to withdraw money from ATM with the card {{CREDIT_CARD}}",
+        "spans": [
+            {
+                "entity_type": "CREDIT_CARD",
+                "entity_value": "30532057766616",
+                "start_position": 71,
+                "end_position": 85
+            }
+        ],
+        "template_id": 1,
+        "metadata": null
+    },
+    {
+        "full_text": "how can we reach you? you can call 9546 3414",
+        "masked": "How can we reach you? You can call {{PHONE_NUMBER}}",
+        "spans": [
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "9546 3414",
+                "start_position": 35,
+                "end_position": 44
+            }
+        ],
+        "template_id": 29,
+        "metadata": null
+    },
+    {
+        "full_text": "aba, can i please speak to your boss?",
+        "masked": "{{PERSON}}, can I please speak to your boss?",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "aba",
+                "start_position": 0,
+                "end_position": 3
+            }
+        ],
+        "template_id": 5,
+        "metadata": null
+    },
+    {
+        "full_text": "Can you cc me in that at this email: DonaldPasson@jourrapide.com?",
+        "masked": "Can you cc me in that at this email: {{EMAIL_ADDRESS}}?",
+        "spans": [
+            {
+                "entity_type": "EMAIL_ADDRESS",
+                "entity_value": "DonaldPasson@jourrapide.com",
+                "start_position": 37,
+                "end_position": 64
+            }
+        ],
+        "template_id": 4,
+        "metadata": null
+    },
+    {
+        "full_text": "The address of Avant Garde Interior Designs is 040 Λεωφόρος Πανεπιστημίου 219 Apt. 787 ΚΙΑ∆ΟΣ Αμμόχωστος",
+        "masked": "The address of {{ORGANIZATION}} is {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "040 Λεωφόρος Πανεπιστημίου 219 Apt. 787 ΚΙΑ∆ΟΣ Αμμόχωστος",
+                "start_position": 47,
+                "end_position": 104
+            },
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "Avant Garde Interior Designs",
+                "start_position": 15,
+                "end_position": 43
+            }
+        ],
+        "template_id": 22,
+        "metadata": null
+    },
+    {
+        "full_text": "Henrik O Halvorsen from Quest Technology Service is the keynote speaker",
+        "masked": "{{PERSON}} from {{ORGANIZATION}} is the keynote speaker",
+        "spans": [
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "Quest Technology Service",
+                "start_position": 24,
+                "end_position": 48
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Henrik O Halvorsen",
+                "start_position": 0,
+                "end_position": 18
+            }
+        ],
+        "template_id": 21,
+        "metadata": null
+    },
+    {
+        "full_text": "I once lived in 8454 ul. Saturna 91 Apt. 281, Bystré u Policky, Czech Republic 81010. I now live in the corner of Vabaduse 21 and Romi Light",
+        "masked": "I once lived in {{STREET_ADDRESS}}. I now live in {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "the corner of Vabaduse 21 and Romi Light",
+                "start_position": 100,
+                "end_position": 140
+            },
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "8454 ul. Saturna 91 Apt. 281, Bystré u Policky, Czech Republic 81010",
+                "start_position": 16,
+                "end_position": 84
+            }
+        ],
+        "template_id": 35,
+        "metadata": null
+    },
+    {
+        "full_text": "for my take on ms. fiorentini, see guilty pleasures: 5 musicians of the 70s you're supposed to hate (but secretly love)",
+        "masked": "For my take on {{TITLE}} {{PERSON}}, see Guilty Pleasures: 5 Musicians Of The 70s You're Supposed To Hate (But Secretly Love)",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "fiorentini",
+                "start_position": 19,
+                "end_position": 29
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "ms.",
+                "start_position": 15,
+                "end_position": 18
+            }
+        ],
+        "template_id": 7,
+        "metadata": null
+    },
+    {
+        "full_text": "ailén cortés from purity supreme is the keynote speaker",
+        "masked": "{{PERSON}} from {{ORGANIZATION}} is the keynote speaker",
+        "spans": [
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "purity supreme",
+                "start_position": 18,
+                "end_position": 32
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "ailén cortés",
+                "start_position": 0,
+                "end_position": 12
+            }
+        ],
+        "template_id": 21,
+        "metadata": null
+    },
+    {
+        "full_text": "date: 2000-10-06 05:11:13\nname: ralf weber\nphone: 405-550-9555",
+        "masked": "Date: {{DATE_TIME}}\nName: {{PERSON}}\nPhone: {{PHONE_NUMBER}}",
+        "spans": [
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "405-550-9555",
+                "start_position": 50,
+                "end_position": 62
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "ralf weber",
+                "start_position": 32,
+                "end_position": 42
+            },
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "2000-10-06 05:11:13",
+                "start_position": 6,
+                "end_position": 25
+            }
+        ],
+        "template_id": 26,
+        "metadata": null
+    },
+    {
+        "full_text": "please have the manager call me at 06-65020162 i'd like to join accounts with ms. braithwaite",
+        "masked": "Please have the manager call me at {{PHONE_NUMBER}} I'd like to join accounts with ms. {{PERSON}}",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "braithwaite",
+                "start_position": 82,
+                "end_position": 86
+            },
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "06-65020162",
+                "start_position": 35,
+                "end_position": 46
+            }
+        ],
+        "template_id": 28,
+        "metadata": null
+    },
+    {
+        "full_text": "i'd like to call a taxi to r nossa senhora fátima 106 patricia viaduct\n suite 506\n pisão\n portugal 28965. please call me when you're here.",
+        "masked": "I'd like to call a taxi to {{STREET_ADDRESS}}. Please call me when you're here.",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "r nossa senhora fátima 106 patricia viaduct\n suite 506\n pisão\n portugal 28965",
+                "start_position": 27,
+                "end_position": 104
+            }
+        ],
+        "template_id": 14,
+        "metadata": null
+    },
+    {
+        "full_text": "could you please send me the last billed amount for cc 3567833202075191 on my e-mail gabrielrochadias@jourrapide.com?",
+        "masked": "Could you please send me the last billed amount for cc {{CREDIT_CARD}} on my e-mail {{EMAIL_ADDRESS}}?",
+        "spans": [
+            {
+                "entity_type": "EMAIL_ADDRESS",
+                "entity_value": "gabrielrochadias@jourrapide.com",
+                "start_position": 85,
+                "end_position": 116
+            },
+            {
+                "entity_type": "CREDIT_CARD",
+                "entity_value": "3567833202075191",
+                "start_position": 55,
+                "end_position": 71
+            }
+        ],
+        "template_id": 2,
+        "metadata": null
+    },
+    {
+        "full_text": "can you cc me in that at this email: lionellacolombo@jourrapide.com?",
+        "masked": "Can you cc me in that at this email: {{EMAIL_ADDRESS}}?",
+        "spans": [
+            {
+                "entity_type": "EMAIL_ADDRESS",
+                "entity_value": "lionellacolombo@jourrapide.com",
+                "start_position": 37,
+                "end_position": 67
+            }
+        ],
+        "template_id": 4,
+        "metadata": null
+    },
+    {
+        "full_text": "Date: 1982-04-24 08:34:37\nName: Georgina Charlton\nPhone: 738 057 514",
+        "masked": "Date: {{DATE_TIME}}\nName: {{PERSON}}\nPhone: {{PHONE_NUMBER}}",
+        "spans": [
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "738 057 514",
+                "start_position": 57,
+                "end_position": 68
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Georgina Charlton",
+                "start_position": 32,
+                "end_position": 49
+            },
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "1982-04-24 08:34:37",
+                "start_position": 6,
+                "end_position": 25
+            }
+        ],
+        "template_id": 26,
+        "metadata": null
+    },
+    {
+        "full_text": "she was born on 6/23/1963. her maiden name is {{prefix_female} helgesen",
+        "masked": "She was born on {{DATE_TIME}}. Her maiden name is {{prefix_female} {{PERSON}}",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "helgesen",
+                "start_position": 63,
+                "end_position": 71
+            },
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "6/23/1963",
+                "start_position": 16,
+                "end_position": 25
+            }
+        ],
+        "template_id": 37,
+        "metadata": null
+    },
+    {
+        "full_text": "The address of Chandler's is 439 Bergshaugen 43 Suite 252, Kustja, Estonia",
+        "masked": "The address of {{ORGANIZATION}} is {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "439 Bergshaugen 43 Suite 252, Kustja, Estonia",
+                "start_position": 29,
+                "end_position": 74
+            },
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "Chandler's",
+                "start_position": 15,
+                "end_position": 25
+            }
+        ],
+        "template_id": 22,
+        "metadata": null
+    },
+    {
+        "full_text": "My name appears incorrectly on credit card statement could you please correct it to Mr. David Yoshimura?",
+        "masked": "My name appears incorrectly on credit card statement could you please correct it to {{TITLE}} {{PERSON}}?",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "David Yoshimura",
+                "start_position": 88,
+                "end_position": 103
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "Mr.",
+                "start_position": 84,
+                "end_position": 87
+            }
+        ],
+        "template_id": 6,
+        "metadata": null
+    },
+    {
+        "full_text": "i'll meet you at psc 9009, box 3265\napo ae 24307 after the concert.",
+        "masked": "I'll meet you at {{STREET_ADDRESS}} after the concert.",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "psc 9009, box 3265\napo ae 24307",
+                "start_position": 17,
+                "end_position": 48
+            }
+        ],
+        "template_id": 15,
+        "metadata": null
+    },
+    {
+        "full_text": "for my take on mrs. keith, see guilty pleasures: 5 musicians of the 70s you're supposed to hate (but secretly love)",
+        "masked": "For my take on {{TITLE}} {{PERSON}}, see Guilty Pleasures: 5 Musicians Of The 70s You're Supposed To Hate (But Secretly Love)",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "keith",
+                "start_position": 20,
+                "end_position": 25
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "mrs.",
+                "start_position": 15,
+                "end_position": 19
+            }
+        ],
+        "template_id": 7,
+        "metadata": null
+    },
+    {
+        "full_text": "Exact Realty is the brainchild of our 3 founders: Coane, Murphy and Klein.  The idea was born (on the beach) while they were constructing a website to be the basis of another start-up idea.",
+        "masked": "{{ORGANIZATION}} is the brainchild of our 3 founders: {{PERSON}}, {{PERSON}} and {{PERSON}}.  The idea was born (on the beach) while they were constructing a website to be the basis of another start-up idea.",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Klein",
+                "start_position": 68,
+                "end_position": 73
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Murphy",
+                "start_position": 57,
+                "end_position": 63
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Coane",
+                "start_position": 50,
+                "end_position": 55
+            },
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "Exact Realty",
+                "start_position": 0,
+                "end_position": 12
+            }
+        ],
+        "template_id": 32,
+        "metadata": null
+    },
+    {
+        "full_text": "Please have the manager call me at 9680 7842 I'd like to join accounts with ms. Csaba",
+        "masked": "Please have the manager call me at {{PHONE_NUMBER}} I'd like to join accounts with ms. {{PERSON}}",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Csaba",
+                "start_position": 80,
+                "end_position": 85
+            },
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "9680 7842",
+                "start_position": 35,
+                "end_position": 44
+            }
+        ],
+        "template_id": 28,
+        "metadata": null
+    },
+    {
+        "full_text": "Where are you from? I am from Cyprus (Greek).",
+        "masked": "Where are you from? I am from {{GPE}}.",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Cyprus (Greek)",
+                "start_position": 30,
+                "end_position": 44
+            }
+        ],
+        "template_id": 45,
+        "metadata": null
+    },
+    {
+        "full_text": "I saw him last on 1/19/1979",
+        "masked": "I saw him last on {{DATE_TIME}}",
+        "spans": [
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "1/19/1979",
+                "start_position": 18,
+                "end_position": 27
+            }
+        ],
+        "template_id": 24,
+        "metadata": null
+    },
+    {
+        "full_text": "What's your email? StephanFenstermacher@teleworm.us",
+        "masked": "What's your email? {{EMAIL_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "EMAIL_ADDRESS",
+                "entity_value": "StephanFenstermacher@teleworm.us",
+                "start_position": 19,
+                "end_position": 51
+            }
+        ],
+        "template_id": 33,
+        "metadata": null
+    },
+    {
+        "full_text": "have you heard Alexis Hoare speak yet?",
+        "masked": "have you heard {{PERSON}} speak yet?",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Alexis Hoare",
+                "start_position": 15,
+                "end_position": 27
+            }
+        ],
+        "template_id": 8,
+        "metadata": null
+    },
+    {
+        "full_text": "Celina, can I please speak to your boss?",
+        "masked": "{{PERSON}}, can I please speak to your boss?",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Celina",
+                "start_position": 0,
+                "end_position": 6
+            }
+        ],
+        "template_id": 5,
+        "metadata": null
+    },
+    {
+        "full_text": "I am affiliated with PacifiCare Health Systems Inc now. Previously I was working at Pro Yard Services.",
+        "masked": "I am affiliated with {{ORGANIZATION}} now. Previously I was working at {{ORGANIZATION}}.",
+        "spans": [
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "Pro Yard Services",
+                "start_position": 84,
+                "end_position": 101
+            },
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "PacifiCare Health Systems Inc",
+                "start_position": 21,
+                "end_position": 50
+            }
+        ],
+        "template_id": 42,
+        "metadata": null
+    },
+    {
+        "full_text": "i'd like to call a taxi to 071 ctra. villena 79 suite 519, notodden, oslo. please call me when you're here.",
+        "masked": "I'd like to call a taxi to {{STREET_ADDRESS}}. Please call me when you're here.",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "071 ctra. villena 79 suite 519, notodden, oslo",
+                "start_position": 27,
+                "end_position": 75
+            }
+        ],
+        "template_id": 14,
+        "metadata": null
+    },
+    {
+        "full_text": "Afforda is a design agency based in Italy.",
+        "masked": "{{ORGANIZATION}} is a design agency based in {{GPE}}.",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Italy",
+                "start_position": 36,
+                "end_position": 41
+            },
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "Afforda",
+                "start_position": 0,
+                "end_position": 7
+            }
+        ],
+        "template_id": 18,
+        "metadata": null
+    },
+    {
+        "full_text": "I really need a break. I want to go back home to Baden.",
+        "masked": "I really need a break. I want to go back home to {{GPE}}.",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Baden",
+                "start_position": 49,
+                "end_position": 54
+            }
+        ],
+        "template_id": 39,
+        "metadata": null
+    },
+    {
+        "full_text": "For my take on Mrs. Brown, see Guilty Pleasures: 5 Musicians Of The 70s You're Supposed To Hate (But Secretly Love)",
+        "masked": "For my take on {{TITLE}} {{PERSON}}, see Guilty Pleasures: 5 Musicians Of The 70s You're Supposed To Hate (But Secretly Love)",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Brown",
+                "start_position": 20,
+                "end_position": 25
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "Mrs.",
+                "start_position": 15,
+                "end_position": 19
+            }
+        ],
+        "template_id": 7,
+        "metadata": null
+    },
+    {
+        "full_text": "Portugal was super fun to visit!",
+        "masked": "{{GPE}} was super fun to visit!",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Portugal",
+                "start_position": 0,
+                "end_position": 8
+            }
+        ],
+        "template_id": 19,
+        "metadata": null
+    },
+    {
+        "full_text": "I'm originally from Brazil",
+        "masked": "I'm originally from {{GPE}}",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Brazil",
+                "start_position": 20,
+                "end_position": 26
+            }
+        ],
+        "template_id": 16,
+        "metadata": null
+    },
+    {
+        "full_text": "for my take on dr. quinn, see guilty pleasures: 5 musicians of the 70s you're supposed to hate (but secretly love)",
+        "masked": "For my take on {{TITLE}} {{PERSON}}, see Guilty Pleasures: 5 Musicians Of The 70s You're Supposed To Hate (But Secretly Love)",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "quinn",
+                "start_position": 19,
+                "end_position": 24
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "dr.",
+                "start_position": 15,
+                "end_position": 18
+            }
+        ],
+        "template_id": 7,
+        "metadata": null
+    },
+    {
+        "full_text": "i am affiliated with ishares international developed real estate etf now. previously i was working at price's electronics.",
+        "masked": "I am affiliated with {{ORGANIZATION}} now. Previously I was working at {{ORGANIZATION}}.",
+        "spans": [
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "price's electronics",
+                "start_position": 102,
+                "end_position": 121
+            },
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "ishares international developed real estate etf",
+                "start_position": 21,
+                "end_position": 68
+            }
+        ],
+        "template_id": 42,
+        "metadata": null
+    },
+    {
+        "full_text": "I'm originally from Karachi",
+        "masked": "I'm originally from {{GPE}}",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Karachi",
+                "start_position": 20,
+                "end_position": 25
+            }
+        ],
+        "template_id": 16,
+        "metadata": null
+    },
+    {
+        "full_text": "i'd like it to be sent to 34291 reyes católicos 75 apt. 594 chiclana de la frontera cádiz",
+        "masked": "I'd like it to be sent to {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "34291 reyes católicos 75 apt. 594 chiclana de la frontera cádiz",
+                "start_position": 26,
+                "end_position": 89
+            }
+        ],
+        "template_id": 13,
+        "metadata": null
+    },
+    {
+        "full_text": "Please pick up your Amazon package at 29123 36 Scotswood Road Apt. 131, WHIAN WHIAN, Australia",
+        "masked": "Please pick up your Amazon package at {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "29123 36 Scotswood Road Apt. 131, WHIAN WHIAN, Australia",
+                "start_position": 38,
+                "end_position": 94
+            }
+        ],
+        "template_id": 41,
+        "metadata": null
+    },
+    {
+        "full_text": "I want to add Mr. Honoré Beaudouin as a beneficiary to my account",
+        "masked": "I want to add {{TITLE}} {{PERSON}} as a beneficiary to my account",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Honoré Beaudouin",
+                "start_position": 18,
+                "end_position": 34
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "Mr.",
+                "start_position": 14,
+                "end_position": 17
+            }
+        ],
+        "template_id": 10,
+        "metadata": null
+    },
+    {
+        "full_text": "please have the manager call me at 382 5912 i'd like to join accounts with ms. amalia",
+        "masked": "Please have the manager call me at {{PHONE_NUMBER}} I'd like to join accounts with ms. {{PERSON}}",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "amalia",
+                "start_position": 79,
+                "end_position": 85
+            },
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "382 5912",
+                "start_position": 35,
+                "end_position": 43
+            }
+        ],
+        "template_id": 28,
+        "metadata": null
+    },
+    {
+        "full_text": "Please update the billing address with 461 Petrus Campersingel 50 Apt. 719 Groningen Groningen for this card: 180049871537741",
+        "masked": "Please update the billing address with {{STREET_ADDRESS}} for this card: {{CREDIT_CARD}}",
+        "spans": [
+            {
+                "entity_type": "CREDIT_CARD",
+                "entity_value": "180049871537741",
+                "start_position": 110,
+                "end_position": 125
+            },
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "461 Petrus Campersingel 50 Apt. 719 Groningen Groningen",
+                "start_position": 39,
+                "end_position": 94
+            }
+        ],
+        "template_id": 34,
+        "metadata": null
+    },
+    {
+        "full_text": "I really need a break. I want to go back home to Gatesville.",
+        "masked": "I really need a break. I want to go back home to {{GPE}}.",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Gatesville",
+                "start_position": 49,
+                "end_position": 59
+            }
+        ],
+        "template_id": 39,
+        "metadata": null
+    },
+    {
+        "full_text": "Date: 2018-07-28 15:29:19\nName: Joshua Lewis\nPhone: 0493 85 39 77",
+        "masked": "Date: {{DATE_TIME}}\nName: {{PERSON}}\nPhone: {{PHONE_NUMBER}}",
+        "spans": [
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "0493 85 39 77",
+                "start_position": 52,
+                "end_position": 65
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Joshua Lewis",
+                "start_position": 32,
+                "end_position": 44
+            },
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "2018-07-28 15:29:19",
+                "start_position": 6,
+                "end_position": 25
+            }
+        ],
+        "template_id": 26,
+        "metadata": null
+    },
+    {
+        "full_text": "kieran, can i please speak to your boss?",
+        "masked": "{{PERSON}}, can I please speak to your boss?",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "kieran",
+                "start_position": 0,
+                "end_position": 6
+            }
+        ],
+        "template_id": 5,
+        "metadata": null
+    },
+    {
+        "full_text": "i will be travelling to cyprus (greek) next week, so i need my passport to be ready by then",
+        "masked": "I will be travelling to {{GPE}} next week, so I need my passport to be ready by then",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "cyprus (greek)",
+                "start_position": 24,
+                "end_position": 38
+            }
+        ],
+        "template_id": 17,
+        "metadata": null
+    },
+    {
+        "full_text": "It's like that since 12/12/1999",
+        "masked": "It's like that since {{DATE_TIME}}",
+        "spans": [
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "12/12/1999",
+                "start_position": 21,
+                "end_position": 31
+            }
+        ],
+        "template_id": 23,
+        "metadata": null
+    },
+    {
+        "full_text": "what's your email? agnescouturier@superrito.com",
+        "masked": "What's your email? {{EMAIL_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "EMAIL_ADDRESS",
+                "entity_value": "agnescouturier@superrito.com",
+                "start_position": 19,
+                "end_position": 47
+            }
+        ],
+        "template_id": 33,
+        "metadata": null
+    },
+    {
+        "full_text": "for my take on dr. smith, see guilty pleasures: 5 musicians of the 70s you're supposed to hate (but secretly love)",
+        "masked": "For my take on {{TITLE}} {{PERSON}}, see Guilty Pleasures: 5 Musicians Of The 70s You're Supposed To Hate (But Secretly Love)",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "smith",
+                "start_position": 19,
+                "end_position": 24
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "dr.",
+                "start_position": 15,
+                "end_position": 18
+            }
+        ],
+        "template_id": 7,
+        "metadata": null
+    },
+    {
+        "full_text": "i once lived in 0813 pärna 33 suite 108 rünga estonia. i now live in unit 0453 box 5910\ndpo aa 30386",
+        "masked": "I once lived in {{STREET_ADDRESS}}. I now live in {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "unit 0453 box 5910\ndpo aa 30386",
+                "start_position": 69,
+                "end_position": 100
+            },
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "0813 pärna 33 suite 108 rünga estonia",
+                "start_position": 16,
+                "end_position": 53
+            }
+        ],
+        "template_id": 35,
+        "metadata": null
+    },
+    {
+        "full_text": "How can we reach you? You can call 24-51-01-78",
+        "masked": "How can we reach you? You can call {{PHONE_NUMBER}}",
+        "spans": [
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "24-51-01-78",
+                "start_position": 35,
+                "end_position": 46
+            }
+        ],
+        "template_id": 29,
+        "metadata": null
+    },
+    {
+        "full_text": "are there any charges applied to withdraw money from atm with the card 4513956504414958374",
+        "masked": "Are there any charges applied to withdraw money from ATM with the card {{CREDIT_CARD}}",
+        "spans": [
+            {
+                "entity_type": "CREDIT_CARD",
+                "entity_value": "4513956504414958374",
+                "start_position": 71,
+                "end_position": 90
+            }
+        ],
+        "template_id": 1,
+        "metadata": null
+    },
+    {
+        "full_text": "i would like to stop receiving messages to 04621 56 80 46",
+        "masked": "I would like to stop receiving messages to {{PHONE_NUMBER}}",
+        "spans": [
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "04621 56 80 46",
+                "start_position": 43,
+                "end_position": 57
+            }
+        ],
+        "template_id": 30,
+        "metadata": null
+    },
+    {
+        "full_text": "Please charge my credit card. Number is 4991169786185757",
+        "masked": "Please charge my credit card. Number is {{CREDIT_CARD}}",
+        "spans": [
+            {
+                "entity_type": "CREDIT_CARD",
+                "entity_value": "4991169786185757",
+                "start_position": 40,
+                "end_position": 56
+            }
+        ],
+        "template_id": 36,
+        "metadata": null
+    },
+    {
+        "full_text": "hello, this is mr. peter bunce. who are you?",
+        "masked": "Hello, this is {{TITLE}} {{PERSON}}. Who are you?",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "peter bunce",
+                "start_position": 19,
+                "end_position": 30
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "mr.",
+                "start_position": 15,
+                "end_position": 18
+            }
+        ],
+        "template_id": 9,
+        "metadata": null
+    },
+    {
+        "full_text": "mr. takeda flew to mijdrecht on sunday morning.",
+        "masked": "{{TITLE}} {{PERSON}} flew to {{GPE}} on {{DATE_TIME}} morning.",
+        "spans": [
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "sunday",
+                "start_position": 32,
+                "end_position": 38
+            },
+            {
+                "entity_type": "GPE",
+                "entity_value": "mijdrecht",
+                "start_position": 19,
+                "end_position": 28
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "takeda",
+                "start_position": 4,
+                "end_position": 10
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "mr.",
+                "start_position": 0,
+                "end_position": 3
+            }
+        ],
+        "template_id": 27,
+        "metadata": null
+    },
+    {
+        "full_text": "Are there any charges applied to withdraw money from ATM with the card 30555173625259",
+        "masked": "Are there any charges applied to withdraw money from ATM with the card {{CREDIT_CARD}}",
+        "spans": [
+            {
+                "entity_type": "CREDIT_CARD",
+                "entity_value": "30555173625259",
+                "start_position": 71,
+                "end_position": 85
+            }
+        ],
+        "template_id": 1,
+        "metadata": null
+    },
+    {
+        "full_text": "You're up for this shift next Tuesday",
+        "masked": "You're up for this shift next {{DATE_TIME}}",
+        "spans": [
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "Tuesday",
+                "start_position": 30,
+                "end_position": 37
+            }
+        ],
+        "template_id": 25,
+        "metadata": null
+    },
+    {
+        "full_text": "i have lost my card 3552105922584654. could you please block my credit card asap ? my name is anastasio milani.",
+        "masked": "I have lost my card {{CREDIT_CARD}}. Could you please block my credit card ASAP ? My name is {{PERSON}}.",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "anastasio milani",
+                "start_position": 94,
+                "end_position": 110
+            },
+            {
+                "entity_type": "CREDIT_CARD",
+                "entity_value": "3552105922584654",
+                "start_position": 20,
+                "end_position": 36
+            }
+        ],
+        "template_id": 0,
+        "metadata": null
+    },
+    {
+        "full_text": "she was born on 10/24/1936. her maiden name is {{prefix_female} velde",
+        "masked": "She was born on {{DATE_TIME}}. Her maiden name is {{prefix_female} {{PERSON}}",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "velde",
+                "start_position": 64,
+                "end_position": 69
+            },
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "10/24/1936",
+                "start_position": 16,
+                "end_position": 26
+            }
+        ],
+        "template_id": 37,
+        "metadata": null
+    },
+    {
+        "full_text": "For my take on Mrs. Szöllössy, see Guilty Pleasures: 5 Musicians Of The 70s You're Supposed To Hate (But Secretly Love)",
+        "masked": "For my take on {{TITLE}} {{PERSON}}, see Guilty Pleasures: 5 Musicians Of The 70s You're Supposed To Hate (But Secretly Love)",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Szöllössy",
+                "start_position": 20,
+                "end_position": 29
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "Mrs.",
+                "start_position": 15,
+                "end_position": 19
+            }
+        ],
+        "template_id": 7,
+        "metadata": null
+    },
+    {
+        "full_text": "i'll meet you at 918 26 rue des lieutemants thomazo suite 706\nhindford, nan 40532 after the concert.",
+        "masked": "I'll meet you at {{STREET_ADDRESS}} after the concert.",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "918 26 rue des lieutemants thomazo suite 706\nhindford, nan 40532",
+                "start_position": 17,
+                "end_position": 81
+            }
+        ],
+        "template_id": 15,
+        "metadata": null
+    },
+    {
+        "full_text": "hello, this is mr. alexis varhaug. who are you?",
+        "masked": "Hello, this is {{TITLE}} {{PERSON}}. Who are you?",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "alexis varhaug",
+                "start_position": 19,
+                "end_position": 33
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "mr.",
+                "start_position": 15,
+                "end_position": 18
+            }
+        ],
+        "template_id": 9,
+        "metadata": null
+    },
+    {
+        "full_text": "I'm originally from Slovenia",
+        "masked": "I'm originally from {{GPE}}",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Slovenia",
+                "start_position": 20,
+                "end_position": 28
+            }
+        ],
+        "template_id": 16,
+        "metadata": null
+    },
+    {
+        "full_text": "The address of House Of Denmark is 2837 Ziegelgasse 19\nWashington, DC 17158",
+        "masked": "The address of {{ORGANIZATION}} is {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "2837 Ziegelgasse 19\nWashington, DC 17158",
+                "start_position": 35,
+                "end_position": 75
+            },
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "House Of Denmark",
+                "start_position": 15,
+                "end_position": 31
+            }
+        ],
+        "template_id": 22,
+        "metadata": null
+    },
+    {
+        "full_text": "can you cc me in that at this email: molnaradony@einrot.com?",
+        "masked": "Can you cc me in that at this email: {{EMAIL_ADDRESS}}?",
+        "spans": [
+            {
+                "entity_type": "EMAIL_ADDRESS",
+                "entity_value": "molnaradony@einrot.com",
+                "start_position": 37,
+                "end_position": 59
+            }
+        ],
+        "template_id": 4,
+        "metadata": null
+    },
+    {
+        "full_text": "the address of l.l. berger is 511 erzsébet tér 19. apt. 602 suite 972, franco da rocha, brazil 49772",
+        "masked": "The address of {{ORGANIZATION}} is {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "511 erzsébet tér 19. apt. 602 suite 972, franco da rocha, brazil 49772",
+                "start_position": 30,
+                "end_position": 100
+            },
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "l.l. berger",
+                "start_position": 15,
+                "end_position": 26
+            }
+        ],
+        "template_id": 22,
+        "metadata": null
+    },
+    {
+        "full_text": "You're up for this shift next Monday",
+        "masked": "You're up for this shift next {{DATE_TIME}}",
+        "spans": [
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "Monday",
+                "start_position": 30,
+                "end_position": 36
+            }
+        ],
+        "template_id": 25,
+        "metadata": null
+    },
+    {
+        "full_text": "i have done an online order but didn't get any message on my registered 0613-9040212. could you please look into it ?",
+        "masked": "I have done an online order but didn't get any message on my registered {{PHONE_NUMBER}}. Could you please look into it ?",
+        "spans": [
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "0613-9040212",
+                "start_position": 72,
+                "end_position": 84
+            }
+        ],
+        "template_id": 31,
+        "metadata": null
+    },
+    {
+        "full_text": "brad, can i please speak to your boss?",
+        "masked": "{{PERSON}}, can I please speak to your boss?",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "brad",
+                "start_position": 0,
+                "end_position": 4
+            }
+        ],
+        "template_id": 5,
+        "metadata": null
+    },
+    {
+        "full_text": "I would like to stop receiving messages to 21 211 435 1482",
+        "masked": "I would like to stop receiving messages to {{PHONE_NUMBER}}",
+        "spans": [
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "21 211 435 1482",
+                "start_position": 43,
+                "end_position": 58
+            }
+        ],
+        "template_id": 30,
+        "metadata": null
+    },
+    {
+        "full_text": "Løgstør is the capital of Denmark",
+        "masked": "{{GPE}} is the capital of {{GPE}}",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Denmark",
+                "start_position": 26,
+                "end_position": 33
+            },
+            {
+                "entity_type": "GPE",
+                "entity_value": "Løgstør",
+                "start_position": 0,
+                "end_position": 7
+            }
+        ],
+        "template_id": 47,
+        "metadata": null
+    },
+    {
+        "full_text": "please transfer all funds from my account to this hackers' estherkalinina@dayrep.com",
+        "masked": "Please transfer all funds from my account to this hackers' {{EMAIL_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "EMAIL_ADDRESS",
+                "entity_value": "estherkalinina@dayrep.com",
+                "start_position": 59,
+                "end_position": 84
+            }
+        ],
+        "template_id": 3,
+        "metadata": null
+    },
+    {
+        "full_text": "i'll meet you at λ. πειραιώς 188 cinzia park\n apt. 837\n αρα∆ιππου\n cyprus (greek) 62133 after the concert.",
+        "masked": "I'll meet you at {{STREET_ADDRESS}} after the concert.",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "λ. πειραιώς 188 cinzia park\n apt. 837\n αρα∆ιππου\n cyprus (greek) 62133",
+                "start_position": 17,
+                "end_position": 87
+            }
+        ],
+        "template_id": 15,
+        "metadata": null
+    },
+    {
+        "full_text": "STAFFANSTORP is the capital of Sweden",
+        "masked": "{{GPE}} is the capital of {{GPE}}",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Sweden",
+                "start_position": 31,
+                "end_position": 37
+            },
+            {
+                "entity_type": "GPE",
+                "entity_value": "STAFFANSTORP",
+                "start_position": 0,
+                "end_position": 12
+            }
+        ],
+        "template_id": 47,
+        "metadata": null
+    },
+    {
+        "full_text": "please update the billing address with 6096 69 spencer street apt. 224\nhespeler, on 86420 for this card: 6597394489648728",
+        "masked": "Please update the billing address with {{STREET_ADDRESS}} for this card: {{CREDIT_CARD}}",
+        "spans": [
+            {
+                "entity_type": "CREDIT_CARD",
+                "entity_value": "6597394489648728",
+                "start_position": 105,
+                "end_position": 121
+            },
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "6096 69 spencer street apt. 224\nhespeler, on 86420",
+                "start_position": 39,
+                "end_position": 89
+            }
+        ],
+        "template_id": 34,
+        "metadata": null
+    },
+    {
+        "full_text": "i'll meet you at usns adkins\nfpo ap 49890 after the concert.",
+        "masked": "I'll meet you at {{STREET_ADDRESS}} after the concert.",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "usns adkins\nfpo ap 49890",
+                "start_position": 17,
+                "end_position": 41
+            }
+        ],
+        "template_id": 15,
+        "metadata": null
+    },
+    {
+        "full_text": "she was born on 3/29/1944. her maiden name is {{prefix_female} frandsen",
+        "masked": "She was born on {{DATE_TIME}}. Her maiden name is {{prefix_female} {{PERSON}}",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "frandsen",
+                "start_position": 63,
+                "end_position": 71
+            },
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "3/29/1944",
+                "start_position": 16,
+                "end_position": 25
+            }
+        ],
+        "template_id": 37,
+        "metadata": null
+    },
+    {
+        "full_text": "I really need a break. I want to go back home to ΑΡΑ∆ΙΠΠΟΥ.",
+        "masked": "I really need a break. I want to go back home to {{GPE}}.",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "ΑΡΑ∆ΙΠΠΟΥ",
+                "start_position": 49,
+                "end_position": 58
+            }
+        ],
+        "template_id": 39,
+        "metadata": null
+    },
+    {
+        "full_text": "can you cc me in that at this email: lincolningham@jourrapide.com?",
+        "masked": "Can you cc me in that at this email: {{EMAIL_ADDRESS}}?",
+        "spans": [
+            {
+                "entity_type": "EMAIL_ADDRESS",
+                "entity_value": "lincolningham@jourrapide.com",
+                "start_position": 37,
+                "end_position": 65
+            }
+        ],
+        "template_id": 4,
+        "metadata": null
+    },
+    {
+        "full_text": "can you please help me find the restaurant? it is supposed to be at the corner of aqqusinersuaq 111 and ibrahimov run",
+        "masked": "Can you please help me find the restaurant? It is supposed to be at {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "the corner of aqqusinersuaq 111 and ibrahimov run",
+                "start_position": 68,
+                "end_position": 117
+            }
+        ],
+        "template_id": 46,
+        "metadata": null
+    },
+    {
+        "full_text": "the address of thebottomhalf is 56538 86 cours marechal-joffre\naltafulla\n, t\n spain 23069",
+        "masked": "The address of {{ORGANIZATION}} is {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "56538 86 cours marechal-joffre\naltafulla\n, t\n spain 23069",
+                "start_position": 32,
+                "end_position": 89
+            },
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "thebottomhalf",
+                "start_position": 15,
+                "end_position": 28
+            }
+        ],
+        "template_id": 22,
+        "metadata": null
+    },
+    {
+        "full_text": "kauê lima from pak and save is the keynote speaker",
+        "masked": "{{PERSON}} from {{ORGANIZATION}} is the keynote speaker",
+        "spans": [
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "pak and save",
+                "start_position": 15,
+                "end_position": 27
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "kauê lima",
+                "start_position": 0,
+                "end_position": 9
+            }
+        ],
+        "template_id": 21,
+        "metadata": null
+    },
+    {
+        "full_text": "i work for edge garden services",
+        "masked": "I work for {{ORGANIZATION}}",
+        "spans": [
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "edge garden services",
+                "start_position": 11,
+                "end_position": 31
+            }
+        ],
+        "template_id": 20,
+        "metadata": null
+    },
+    {
+        "full_text": "The restaurant is located at 346 26 rue des lieutemants Thomazo Apt. 318\nKulusuk\n, SM\n 97621. It serves great food.",
+        "masked": "The restaurant is located at {{STREET_ADDRESS}}. It serves great food.",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "346 26 rue des lieutemants Thomazo Apt. 318\nKulusuk\n, SM\n 97621",
+                "start_position": 29,
+                "end_position": 92
+            }
+        ],
+        "template_id": 12,
+        "metadata": null
+    },
+    {
+        "full_text": "I cannot wait to catch my flight to Peru",
+        "masked": "I cannot wait to catch my flight to {{GPE}}",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Peru",
+                "start_position": 36,
+                "end_position": 42
+            }
+        ],
+        "template_id": 38,
+        "metadata": null
+    },
+    {
+        "full_text": "Please have the manager call me at 613-387-5567 I'd like to join accounts with ms. Mara",
+        "masked": "Please have the manager call me at {{PHONE_NUMBER}} I'd like to join accounts with ms. {{PERSON}}",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Mara",
+                "start_position": 83,
+                "end_position": 87
+            },
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "613-387-5567",
+                "start_position": 35,
+                "end_position": 47
+            }
+        ],
+        "template_id": 28,
+        "metadata": null
+    },
+    {
+        "full_text": "please update the billing address with 519 5 park terrace apt. 261\npituffik\n, qa\n 99355 for this card: 180068047293450",
+        "masked": "Please update the billing address with {{STREET_ADDRESS}} for this card: {{CREDIT_CARD}}",
+        "spans": [
+            {
+                "entity_type": "CREDIT_CARD",
+                "entity_value": "180068047293450",
+                "start_position": 103,
+                "end_position": 118
+            },
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "519 5 park terrace apt. 261\npituffik\n, qa\n 99355",
+                "start_position": 39,
+                "end_position": 87
+            }
+        ],
+        "template_id": 34,
+        "metadata": null
+    },
+    {
+        "full_text": "I have lost my card 2296392838510527. Could you please block my credit card ASAP ? My name is Konrad Johnsen.",
+        "masked": "I have lost my card {{CREDIT_CARD}}. Could you please block my credit card ASAP ? My name is {{PERSON}}.",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Konrad Johnsen",
+                "start_position": 94,
+                "end_position": 108
+            },
+            {
+                "entity_type": "CREDIT_CARD",
+                "entity_value": "2296392838510527",
+                "start_position": 20,
+                "end_position": 36
+            }
+        ],
+        "template_id": 0,
+        "metadata": null
+    },
+    {
+        "full_text": "El Gouedria is the capital of Tunisia",
+        "masked": "{{GPE}} is the capital of {{GPE}}",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Tunisia",
+                "start_position": 30,
+                "end_position": 37
+            },
+            {
+                "entity_type": "GPE",
+                "entity_value": "El Gouedria",
+                "start_position": 0,
+                "end_position": 11
+            }
+        ],
+        "template_id": 47,
+        "metadata": null
+    },
+    {
+        "full_text": "bot: where would you like this to be sent to? user: eriksbo västergärde 78 layla center\n apt. 877\n askim\n sweden 72980",
+        "masked": "Bot: Where would you like this to be sent to? User: {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "eriksbo västergärde 78 layla center\n apt. 877\n askim\n sweden 72980",
+                "start_position": 52,
+                "end_position": 118
+            }
+        ],
+        "template_id": 43,
+        "metadata": null
+    },
+    {
+        "full_text": "please charge my credit card. number is 213109281524852",
+        "masked": "Please charge my credit card. Number is {{CREDIT_CARD}}",
+        "spans": [
+            {
+                "entity_type": "CREDIT_CARD",
+                "entity_value": "213109281524852",
+                "start_position": 40,
+                "end_position": 55
+            }
+        ],
+        "template_id": 36,
+        "metadata": null
+    },
+    {
+        "full_text": "Please transfer all funds from my account to this hackers' ElizabethBriggs@rhyta.com",
+        "masked": "Please transfer all funds from my account to this hackers' {{EMAIL_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "EMAIL_ADDRESS",
+                "entity_value": "ElizabethBriggs@rhyta.com",
+                "start_position": 59,
+                "end_position": 84
+            }
+        ],
+        "template_id": 3,
+        "metadata": null
+    },
+    {
+        "full_text": "I'd like it to be sent to 28623 R Nossa Senhora Fátima 38 Suite 962 Terras Dominican Republic",
+        "masked": "I'd like it to be sent to {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "28623 R Nossa Senhora Fátima 38 Suite 962 Terras Dominican Republic",
+                "start_position": 26,
+                "end_position": 83
+            }
+        ],
+        "template_id": 13,
+        "metadata": null
+    },
+    {
+        "full_text": "i will be travelling to finland next week, so i need my passport to be ready by then",
+        "masked": "I will be travelling to {{GPE}} next week, so I need my passport to be ready by then",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "finland",
+                "start_position": 24,
+                "end_position": 31
+            }
+        ],
+        "template_id": 17,
+        "metadata": null
+    },
+    {
+        "full_text": "meet me at 59753 via antonio cecchi 69 apt. 156, boeslunde, denmark",
+        "masked": "Meet me at {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "59753 via antonio cecchi 69 apt. 156, boeslunde, denmark",
+                "start_position": 11,
+                "end_position": 67
+            }
+        ],
+        "template_id": 11,
+        "metadata": null
+    },
+    {
+        "full_text": "I'd like to call a taxi to 5646 243 Agnostou Stratioti Square, Pyrga, Cyprus. Please call me when you're here.",
+        "masked": "I'd like to call a taxi to {{STREET_ADDRESS}}. Please call me when you're here.",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "5646 243 Agnostou Stratioti Square, Pyrga, Cyprus",
+                "start_position": 27,
+                "end_position": 76
+            }
+        ],
+        "template_id": 14,
+        "metadata": null
+    },
+    {
+        "full_text": "Where are you from? I am from Damascus.",
+        "masked": "Where are you from? I am from {{GPE}}.",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Damascus",
+                "start_position": 30,
+                "end_position": 38
+            }
+        ],
+        "template_id": 45,
+        "metadata": null
+    },
+    {
+        "full_text": "I cannot wait to catch my flight to New Zealand",
+        "masked": "I cannot wait to catch my flight to {{GPE}}",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "New Zealand",
+                "start_position": 36,
+                "end_position": 47
+            }
+        ],
+        "template_id": 38,
+        "metadata": null
+    },
+    {
+        "full_text": "meet me at 4307 hafnarbraut 75 apt. 909, bar-le-duc, france 37107",
+        "masked": "Meet me at {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "4307 hafnarbraut 75 apt. 909, bar-le-duc, france 37107",
+                "start_position": 11,
+                "end_position": 65
+            }
+        ],
+        "template_id": 11,
+        "metadata": null
+    },
+    {
+        "full_text": "I'm originally from Norway",
+        "masked": "I'm originally from {{GPE}}",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Norway",
+                "start_position": 20,
+                "end_position": 26
+            }
+        ],
+        "template_id": 16,
+        "metadata": null
+    },
+    {
+        "full_text": "I really need a break. I want to go back home to Studenec.",
+        "masked": "I really need a break. I want to go back home to {{GPE}}.",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Studenec",
+                "start_position": 49,
+                "end_position": 57
+            }
+        ],
+        "template_id": 39,
+        "metadata": null
+    },
+    {
+        "full_text": "My name appears incorrectly on credit card statement could you please correct it to Mr. Erik Baader?",
+        "masked": "My name appears incorrectly on credit card statement could you please correct it to {{TITLE}} {{PERSON}}?",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Erik Baader",
+                "start_position": 88,
+                "end_position": 99
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "Mr.",
+                "start_position": 84,
+                "end_position": 87
+            }
+        ],
+        "template_id": 6,
+        "metadata": null
+    },
+    {
+        "full_text": "Please transfer all funds from my account to this hackers' RalfWeber@dayrep.com",
+        "masked": "Please transfer all funds from my account to this hackers' {{EMAIL_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "EMAIL_ADDRESS",
+                "entity_value": "RalfWeber@dayrep.com",
+                "start_position": 59,
+                "end_position": 79
+            }
+        ],
+        "template_id": 3,
+        "metadata": null
+    },
+    {
+        "full_text": "i have lost my card 4643306687669121608. could you please block my credit card asap ? my name is hans jacobsen.",
+        "masked": "I have lost my card {{CREDIT_CARD}}. Could you please block my credit card ASAP ? My name is {{PERSON}}.",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "hans jacobsen",
+                "start_position": 97,
+                "end_position": 110
+            },
+            {
+                "entity_type": "CREDIT_CARD",
+                "entity_value": "4643306687669121608",
+                "start_position": 20,
+                "end_position": 39
+            }
+        ],
+        "template_id": 0,
+        "metadata": null
+    },
+    {
+        "full_text": "I really need a break. I want to go back home to GENEVAD.",
+        "masked": "I really need a break. I want to go back home to {{GPE}}.",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "GENEVAD",
+                "start_position": 49,
+                "end_position": 56
+            }
+        ],
+        "template_id": 39,
+        "metadata": null
+    },
+    {
+        "full_text": "she was born on 4/28/1970. her maiden name is {{prefix_female} rennie",
+        "masked": "She was born on {{DATE_TIME}}. Her maiden name is {{prefix_female} {{PERSON}}",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "rennie",
+                "start_position": 63,
+                "end_position": 69
+            },
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "4/28/1970",
+                "start_position": 16,
+                "end_position": 25
+            }
+        ],
+        "template_id": 37,
+        "metadata": null
+    },
+    {
+        "full_text": "I once lived in 84120 110 Rue du Koweit Apt. 345\nÖTZTAL-BAHNHOF, TR 28572. I now live in USCGC Cockburn\nFPO AA 32114",
+        "masked": "I once lived in {{STREET_ADDRESS}}. I now live in {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "USCGC Cockburn\nFPO AA 32114",
+                "start_position": 89,
+                "end_position": 116
+            },
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "84120 110 Rue du Koweit Apt. 345\nÖTZTAL-BAHNHOF, TR 28572",
+                "start_position": 16,
+                "end_position": 73
+            }
+        ],
+        "template_id": 35,
+        "metadata": null
+    },
+    {
+        "full_text": "hello, this is dr. marcus henriksen. who are you?",
+        "masked": "Hello, this is {{TITLE}} {{PERSON}}. Who are you?",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "marcus henriksen",
+                "start_position": 19,
+                "end_position": 35
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "dr.",
+                "start_position": 15,
+                "end_position": 18
+            }
+        ],
+        "template_id": 9,
+        "metadata": null
+    },
+    {
+        "full_text": "liberata ceja from frank and seder is the keynote speaker",
+        "masked": "{{PERSON}} from {{ORGANIZATION}} is the keynote speaker",
+        "spans": [
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "frank and seder",
+                "start_position": 19,
+                "end_position": 34
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "liberata ceja",
+                "start_position": 0,
+                "end_position": 13
+            }
+        ],
+        "template_id": 21,
+        "metadata": null
+    },
+    {
+        "full_text": "Date: 2013-10-08 04:09:23\nName: Marius Bang\nPhone: 446 6421",
+        "masked": "Date: {{DATE_TIME}}\nName: {{PERSON}}\nPhone: {{PHONE_NUMBER}}",
+        "spans": [
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "446 6421",
+                "start_position": 51,
+                "end_position": 59
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Marius Bang",
+                "start_position": 32,
+                "end_position": 43
+            },
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "2013-10-08 04:09:23",
+                "start_position": 6,
+                "end_position": 25
+            }
+        ],
+        "template_id": 26,
+        "metadata": null
+    },
+    {
+        "full_text": "Cyprus was super fun to visit!",
+        "masked": "{{GPE}} was super fun to visit!",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Cyprus",
+                "start_position": 0,
+                "end_position": 6
+            }
+        ],
+        "template_id": 19,
+        "metadata": null
+    },
+    {
+        "full_text": "can you please help me find the restaurant? it is supposed to be at psc 0681, box 1697\napo aa 29532",
+        "masked": "Can you please help me find the restaurant? It is supposed to be at {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "psc 0681, box 1697\napo aa 29532",
+                "start_position": 68,
+                "end_position": 99
+            }
+        ],
+        "template_id": 46,
+        "metadata": null
+    },
+    {
+        "full_text": "Sun Foods is a design agency based in Canada.",
+        "masked": "{{ORGANIZATION}} is a design agency based in {{GPE}}.",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Canada",
+                "start_position": 38,
+                "end_position": 44
+            },
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "Sun Foods",
+                "start_position": 0,
+                "end_position": 9
+            }
+        ],
+        "template_id": 18,
+        "metadata": null
+    },
+    {
+        "full_text": "i'd like to call a taxi to 9510 turjaška 46 suite 351 radovljica nan. please call me when you're here.",
+        "masked": "I'd like to call a taxi to {{STREET_ADDRESS}}. Please call me when you're here.",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "9510 turjaška 46 suite 351 radovljica nan",
+                "start_position": 27,
+                "end_position": 68
+            }
+        ],
+        "template_id": 14,
+        "metadata": null
+    },
+    {
+        "full_text": "I really need a break. I want to go back home to Cabra Figa.",
+        "masked": "I really need a break. I want to go back home to {{GPE}}.",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Cabra Figa",
+                "start_position": 49,
+                "end_position": 59
+            }
+        ],
+        "template_id": 39,
+        "metadata": null
+    },
+    {
+        "full_text": "please charge my credit card. number is 4641271371582",
+        "masked": "Please charge my credit card. Number is {{CREDIT_CARD}}",
+        "spans": [
+            {
+                "entity_type": "CREDIT_CARD",
+                "entity_value": "4641271371582",
+                "start_position": 40,
+                "end_position": 53
+            }
+        ],
+        "template_id": 36,
+        "metadata": null
+    },
+    {
+        "full_text": "I'll meet you at 6272 Turjaška 22 Apt. 454 Pohorje nan after the concert.",
+        "masked": "I'll meet you at {{STREET_ADDRESS}} after the concert.",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "6272 Turjaška 22 Apt. 454 Pohorje nan",
+                "start_position": 17,
+                "end_position": 54
+            }
+        ],
+        "template_id": 15,
+        "metadata": null
+    },
+    {
+        "full_text": "Are there any charges applied to withdraw money from ATM with the card 4875270320981312",
+        "masked": "Are there any charges applied to withdraw money from ATM with the card {{CREDIT_CARD}}",
+        "spans": [
+            {
+                "entity_type": "CREDIT_CARD",
+                "entity_value": "4875270320981312",
+                "start_position": 71,
+                "end_position": 87
+            }
+        ],
+        "template_id": 1,
+        "metadata": null
+    },
+    {
+        "full_text": "slovenia was super fun to visit!",
+        "masked": "{{GPE}} was super fun to visit!",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "slovenia",
+                "start_position": 0,
+                "end_position": 8
+            }
+        ],
+        "template_id": 19,
+        "metadata": null
+    },
+    {
+        "full_text": "My name appears incorrectly on credit card statement could you please correct it to Mr. Jay Pearce?",
+        "masked": "My name appears incorrectly on credit card statement could you please correct it to {{TITLE}} {{PERSON}}?",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Jay Pearce",
+                "start_position": 88,
+                "end_position": 98
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "Mr.",
+                "start_position": 84,
+                "end_position": 87
+            }
+        ],
+        "template_id": 6,
+        "metadata": null
+    },
+    {
+        "full_text": "i would like to stop receiving messages to 040 165 6868",
+        "masked": "I would like to stop receiving messages to {{PHONE_NUMBER}}",
+        "spans": [
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "040 165 6868",
+                "start_position": 43,
+                "end_position": 55
+            }
+        ],
+        "template_id": 30,
+        "metadata": null
+    },
+    {
+        "full_text": "the rail connectivity between argentina and chile is amazing.",
+        "masked": "The rail connectivity between {{GPE}} and {{GPE}} is amazing.",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "chile",
+                "start_position": 43,
+                "end_position": 48
+            },
+            {
+                "entity_type": "GPE",
+                "entity_value": "argentina",
+                "start_position": 30,
+                "end_position": 38
+            }
+        ],
+        "template_id": 40,
+        "metadata": null
+    },
+    {
+        "full_text": "Finland was super fun to visit!",
+        "masked": "{{GPE}} was super fun to visit!",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Finland",
+                "start_position": 0,
+                "end_position": 7
+            }
+        ],
+        "template_id": 19,
+        "metadata": null
+    },
+    {
+        "full_text": "I would like to stop receiving messages to 040-846-732",
+        "masked": "I would like to stop receiving messages to {{PHONE_NUMBER}}",
+        "spans": [
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "040-846-732",
+                "start_position": 43,
+                "end_position": 54
+            }
+        ],
+        "template_id": 30,
+        "metadata": null
+    },
+    {
+        "full_text": "my name appears incorrectly on credit card statement could you please correct it to mr. jacob gladu?",
+        "masked": "My name appears incorrectly on credit card statement could you please correct it to {{TITLE}} {{PERSON}}?",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "jacob gladu",
+                "start_position": 88,
+                "end_position": 99
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "mr.",
+                "start_position": 84,
+                "end_position": 87
+            }
+        ],
+        "template_id": 6,
+        "metadata": null
+    },
+    {
+        "full_text": "Can you cc me in that at this email: OscarPalfreyman@dayrep.com?",
+        "masked": "Can you cc me in that at this email: {{EMAIL_ADDRESS}}?",
+        "spans": [
+            {
+                "entity_type": "EMAIL_ADDRESS",
+                "entity_value": "OscarPalfreyman@dayrep.com",
+                "start_position": 37,
+                "end_position": 63
+            }
+        ],
+        "template_id": 4,
+        "metadata": null
+    },
+    {
+        "full_text": "can you cc me in that at this email: hoffmanntunde@armyspy.com?",
+        "masked": "Can you cc me in that at this email: {{EMAIL_ADDRESS}}?",
+        "spans": [
+            {
+                "entity_type": "EMAIL_ADDRESS",
+                "entity_value": "hoffmanntunde@armyspy.com",
+                "start_position": 37,
+                "end_position": 62
+            }
+        ],
+        "template_id": 4,
+        "metadata": null
+    },
+    {
+        "full_text": "My name appears incorrectly on credit card statement could you please correct it to Mr. Jay Carvalho?",
+        "masked": "My name appears incorrectly on credit card statement could you please correct it to {{TITLE}} {{PERSON}}?",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Jay Carvalho",
+                "start_position": 88,
+                "end_position": 100
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "Mr.",
+                "start_position": 84,
+                "end_position": 87
+            }
+        ],
+        "template_id": 6,
+        "metadata": null
+    },
+    {
+        "full_text": "I'm originally from Kazakhstan",
+        "masked": "I'm originally from {{GPE}}",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Kazakhstan",
+                "start_position": 20,
+                "end_position": 25
+            }
+        ],
+        "template_id": 16,
+        "metadata": null
+    },
+    {
+        "full_text": "i saw him last on 7/2/1957",
+        "masked": "I saw him last on {{DATE_TIME}}",
+        "spans": [
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "7/2/1957",
+                "start_position": 18,
+                "end_position": 26
+            }
+        ],
+        "template_id": 24,
+        "metadata": null
+    },
+    {
+        "full_text": "I really need a break. I want to go back home to ΦΑΡΜΑΚΑΣ.",
+        "masked": "I really need a break. I want to go back home to {{GPE}}.",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "ΦΑΡΜΑΚΑΣ",
+                "start_position": 49,
+                "end_position": 57
+            }
+        ],
+        "template_id": 39,
+        "metadata": null
+    },
+    {
+        "full_text": "Zair, can I please speak to your boss?",
+        "masked": "{{PERSON}}, can I please speak to your boss?",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Zair",
+                "start_position": 0,
+                "end_position": 4
+            }
+        ],
+        "template_id": 5,
+        "metadata": null
+    },
+    {
+        "full_text": "Can you please help me find the restaurant? It is supposed to be at Harriëtte and 4 Rue Ennassiria",
+        "masked": "Can you please help me find the restaurant? It is supposed to be at {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "Harriëtte and 4 Rue Ennassiria",
+                "start_position": 68,
+                "end_position": 98
+            }
+        ],
+        "template_id": 46,
+        "metadata": null
+    },
+    {
+        "full_text": "for my take on dr. archer, see guilty pleasures: 5 musicians of the 70s you're supposed to hate (but secretly love)",
+        "masked": "For my take on {{TITLE}} {{PERSON}}, see Guilty Pleasures: 5 Musicians Of The 70s You're Supposed To Hate (But Secretly Love)",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "archer",
+                "start_position": 19,
+                "end_position": 25
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "dr.",
+                "start_position": 15,
+                "end_position": 18
+            }
+        ],
+        "template_id": 7,
+        "metadata": null
+    },
+    {
+        "full_text": "the rail connectivity between norway and french guiana is amazing.",
+        "masked": "The rail connectivity between {{GPE}} and {{GPE}} is amazing.",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "french guiana",
+                "start_position": 41,
+                "end_position": 54
+            },
+            {
+                "entity_type": "GPE",
+                "entity_value": "norway",
+                "start_position": 30,
+                "end_position": 36
+            }
+        ],
+        "template_id": 40,
+        "metadata": null
+    },
+    {
+        "full_text": "I will be travelling to Switzerland next week, so I need my passport to be ready by then",
+        "masked": "I will be travelling to {{GPE}} next week, so I need my passport to be ready by then",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Switzerland",
+                "start_position": 24,
+                "end_position": 35
+            }
+        ],
+        "template_id": 17,
+        "metadata": null
+    },
+    {
+        "full_text": "Where are you from? I am from Austria.",
+        "masked": "Where are you from? I am from {{GPE}}.",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Austria",
+                "start_position": 30,
+                "end_position": 37
+            }
+        ],
+        "template_id": 45,
+        "metadata": null
+    },
+    {
+        "full_text": "xray eye & vision clinics is a design agency based in brazil.",
+        "masked": "{{ORGANIZATION}} is a design agency based in {{GPE}}.",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "brazil",
+                "start_position": 54,
+                "end_position": 60
+            },
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "xray eye & vision clinics",
+                "start_position": 0,
+                "end_position": 25
+            }
+        ],
+        "template_id": 18,
+        "metadata": null
+    },
+    {
+        "full_text": "I'm originally from Iceland",
+        "masked": "I'm originally from {{GPE}}",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Iceland",
+                "start_position": 20,
+                "end_position": 27
+            }
+        ],
+        "template_id": 16,
+        "metadata": null
+    },
+    {
+        "full_text": "I once lived in PSC 4245, Box 5709\nAPO AP 98113. I now live in 879 Zistelweg 59 Apt. 334 UNTERLINDEN Carinthia",
+        "masked": "I once lived in {{STREET_ADDRESS}}. I now live in {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "879 Zistelweg 59 Apt. 334 UNTERLINDEN Carinthia",
+                "start_position": 63,
+                "end_position": 110
+            },
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "PSC 4245, Box 5709\nAPO AP 98113",
+                "start_position": 16,
+                "end_position": 47
+            }
+        ],
+        "template_id": 35,
+        "metadata": null
+    },
+    {
+        "full_text": "i saw him last on 12/8/1953",
+        "masked": "I saw him last on {{DATE_TIME}}",
+        "spans": [
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "12/8/1953",
+                "start_position": 18,
+                "end_position": 27
+            }
+        ],
+        "template_id": 24,
+        "metadata": null
+    },
+    {
+        "full_text": "carlos, can i please speak to your boss?",
+        "masked": "{{PERSON}}, can I please speak to your boss?",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "carlos",
+                "start_position": 0,
+                "end_position": 6
+            }
+        ],
+        "template_id": 5,
+        "metadata": null
+    },
+    {
+        "full_text": "Please charge my credit card. Number is 4838624213747665853",
+        "masked": "Please charge my credit card. Number is {{CREDIT_CARD}}",
+        "spans": [
+            {
+                "entity_type": "CREDIT_CARD",
+                "entity_value": "4838624213747665853",
+                "start_position": 40,
+                "end_position": 59
+            }
+        ],
+        "template_id": 36,
+        "metadata": null
+    },
+    {
+        "full_text": "i saw him last on 8/6/2000",
+        "masked": "I saw him last on {{DATE_TIME}}",
+        "spans": [
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "8/6/2000",
+                "start_position": 18,
+                "end_position": 26
+            }
+        ],
+        "template_id": 24,
+        "metadata": null
+    },
+    {
+        "full_text": "I will be travelling to Poland next week, so I need my passport to be ready by then",
+        "masked": "I will be travelling to {{GPE}} next week, so I need my passport to be ready by then",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Poland",
+                "start_position": 24,
+                "end_position": 30
+            }
+        ],
+        "template_id": 17,
+        "metadata": null
+    },
+    {
+        "full_text": "i'd like it to be sent to the corner of 89 chemin des bateliers and marín green",
+        "masked": "I'd like it to be sent to {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "the corner of 89 chemin des bateliers and marín green",
+                "start_position": 26,
+                "end_position": 79
+            }
+        ],
+        "template_id": 13,
+        "metadata": null
+    },
+    {
+        "full_text": "Please pick up your Amazon package at 165 291 Adelianos Kambos\n Apt. 864\n Larnaka\n Cyprus 57650",
+        "masked": "Please pick up your Amazon package at {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "165 291 Adelianos Kambos\n Apt. 864\n Larnaka\n Cyprus 57650",
+                "start_position": 38,
+                "end_position": 95
+            }
+        ],
+        "template_id": 41,
+        "metadata": null
+    },
+    {
+        "full_text": "Please have the manager call me at 06500 12 79 54 I'd like to join accounts with ms. Markus",
+        "masked": "Please have the manager call me at {{PHONE_NUMBER}} I'd like to join accounts with ms. {{PERSON}}",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Markus",
+                "start_position": 85,
+                "end_position": 91
+            },
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "06500 12 79 54",
+                "start_position": 35,
+                "end_position": 49
+            }
+        ],
+        "template_id": 28,
+        "metadata": null
+    },
+    {
+        "full_text": "date: 2003-04-21 22:33:52\nname: kisuke u sugita\nphone: (28) 438-991",
+        "masked": "Date: {{DATE_TIME}}\nName: {{PERSON}}\nPhone: {{PHONE_NUMBER}}",
+        "spans": [
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "(28) 438-991",
+                "start_position": 55,
+                "end_position": 67
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "kisuke u sugita",
+                "start_position": 32,
+                "end_position": 47
+            },
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "2003-04-21 22:33:52",
+                "start_position": 6,
+                "end_position": 25
+            }
+        ],
+        "template_id": 26,
+        "metadata": null
+    },
+    {
+        "full_text": "oulainen is the capital of Betelgeuse",
+        "masked": "{{GPE}} is the capital of {{GPE}}",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Betelgeuse",
+                "start_position": 27,
+                "end_position": 34
+            },
+            {
+                "entity_type": "GPE",
+                "entity_value": "oulainen",
+                "start_position": 0,
+                "end_position": 8
+            }
+        ],
+        "template_id": 47,
+        "metadata": null
+    },
+    {
+        "full_text": "the address of compact disc center is psc 7574, box 8320\napo aa 27129",
+        "masked": "The address of {{ORGANIZATION}} is {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "psc 7574, box 8320\napo aa 27129",
+                "start_position": 38,
+                "end_position": 69
+            },
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "compact disc center",
+                "start_position": 15,
+                "end_position": 34
+            }
+        ],
+        "template_id": 22,
+        "metadata": null
+    },
+    {
+        "full_text": "Naugles is a design agency based in Greenlander.",
+        "masked": "{{ORGANIZATION}} is a design agency based in {{GPE}}.",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Greenlander",
+                "start_position": 36,
+                "end_position": 47
+            },
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "Naugles",
+                "start_position": 0,
+                "end_position": 7
+            }
+        ],
+        "template_id": 18,
+        "metadata": null
+    },
+    {
+        "full_text": "The rail connectivity between United Kingdom and Bolivia is amazing.",
+        "masked": "The rail connectivity between {{GPE}} and {{GPE}} is amazing.",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Bolivia",
+                "start_position": 49,
+                "end_position": 56
+            },
+            {
+                "entity_type": "GPE",
+                "entity_value": "United Kingdom",
+                "start_position": 30,
+                "end_position": 44
+            }
+        ],
+        "template_id": 40,
+        "metadata": null
+    },
+    {
+        "full_text": "Please transfer all funds from my account to this hackers' JulianSouzaFernandes@dayrep.com",
+        "masked": "Please transfer all funds from my account to this hackers' {{EMAIL_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "EMAIL_ADDRESS",
+                "entity_value": "JulianSouzaFernandes@dayrep.com",
+                "start_position": 59,
+                "end_position": 90
+            }
+        ],
+        "template_id": 3,
+        "metadata": null
+    },
+    {
+        "full_text": "I saw him last on 4/15/1982",
+        "masked": "I saw him last on {{DATE_TIME}}",
+        "spans": [
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "4/15/1982",
+                "start_position": 18,
+                "end_position": 27
+            }
+        ],
+        "template_id": 24,
+        "metadata": null
+    },
+    {
+        "full_text": "sportswest is a design agency based in canada.",
+        "masked": "{{ORGANIZATION}} is a design agency based in {{GPE}}.",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "canada",
+                "start_position": 39,
+                "end_position": 45
+            },
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "sportswest",
+                "start_position": 0,
+                "end_position": 10
+            }
+        ],
+        "template_id": 18,
+        "metadata": null
+    },
+    {
+        "full_text": "i want to add mr. nicephorus g. shcherbakov as a beneficiary to my account",
+        "masked": "I want to add {{TITLE}} {{PERSON}} as a beneficiary to my account",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "nicephorus g. shcherbakov",
+                "start_position": 18,
+                "end_position": 43
+            },
+            {
+                "entity_type": "TITLE",
+                "entity_value": "mr.",
+                "start_position": 14,
+                "end_position": 17
+            }
+        ],
+        "template_id": 10,
+        "metadata": null
+    },
+    {
+        "full_text": "I have done an online order but didn't get any message on my registered 0680 298 70 63. Could you please look into it ?",
+        "masked": "I have done an online order but didn't get any message on my registered {{PHONE_NUMBER}}. Could you please look into it ?",
+        "spans": [
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "0680 298 70 63",
+                "start_position": 72,
+                "end_position": 86
+            }
+        ],
+        "template_id": 31,
+        "metadata": null
+    },
+    {
+        "full_text": "I have done an online order but didn't get any message on my registered 32 56 02. Could you please look into it ?",
+        "masked": "I have done an online order but didn't get any message on my registered {{PHONE_NUMBER}}. Could you please look into it ?",
+        "spans": [
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "32 56 02",
+                "start_position": 72,
+                "end_position": 80
+            }
+        ],
+        "template_id": 31,
+        "metadata": null
+    },
+    {
+        "full_text": "date: 1970-03-02 00:38:49\nname: mathilda a. sjöberg\nphone: 75 670 362",
+        "masked": "Date: {{DATE_TIME}}\nName: {{PERSON}}\nPhone: {{PHONE_NUMBER}}",
+        "spans": [
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "75 670 362",
+                "start_position": 59,
+                "end_position": 69
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "mathilda a. sjöberg",
+                "start_position": 32,
+                "end_position": 51
+            },
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "1970-03-02 00:38:49",
+                "start_position": 6,
+                "end_position": 25
+            }
+        ],
+        "template_id": 26,
+        "metadata": null
+    },
+    {
+        "full_text": "Date: 1978-03-27 10:45:55\nName: Tatum George\nPhone: 044 675 7134",
+        "masked": "Date: {{DATE_TIME}}\nName: {{PERSON}}\nPhone: {{PHONE_NUMBER}}",
+        "spans": [
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "044 675 7134",
+                "start_position": 52,
+                "end_position": 64
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Tatum George",
+                "start_position": 32,
+                "end_position": 44
+            },
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "1978-03-27 10:45:55",
+                "start_position": 6,
+                "end_position": 25
+            }
+        ],
+        "template_id": 26,
+        "metadata": null
+    },
+    {
+        "full_text": "I am affiliated with Pasinex Resources Limited now. Previously I was working at J. Riggings.",
+        "masked": "I am affiliated with {{ORGANIZATION}} now. Previously I was working at {{ORGANIZATION}}.",
+        "spans": [
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "J. Riggings",
+                "start_position": 80,
+                "end_position": 91
+            },
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "Pasinex Resources Limited",
+                "start_position": 21,
+                "end_position": 46
+            }
+        ],
+        "template_id": 42,
+        "metadata": null
+    },
+    {
+        "full_text": "Date: 1985-10-11 05:13:01\nName: Rikke Frandsen\nPhone: 032 963 62 53",
+        "masked": "Date: {{DATE_TIME}}\nName: {{PERSON}}\nPhone: {{PHONE_NUMBER}}",
+        "spans": [
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "032 963 62 53",
+                "start_position": 54,
+                "end_position": 67
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "Rikke Frandsen",
+                "start_position": 32,
+                "end_position": 46
+            },
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "1985-10-11 05:13:01",
+                "start_position": 6,
+                "end_position": 25
+            }
+        ],
+        "template_id": 26,
+        "metadata": null
+    },
+    {
+        "full_text": "I would like to stop receiving messages to 0320-2181777",
+        "masked": "I would like to stop receiving messages to {{PHONE_NUMBER}}",
+        "spans": [
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "0320-2181777",
+                "start_position": 43,
+                "end_position": 55
+            }
+        ],
+        "template_id": 30,
+        "metadata": null
+    },
+    {
+        "full_text": "please transfer all funds from my account to this hackers' takatsferko@einrot.com",
+        "masked": "Please transfer all funds from my account to this hackers' {{EMAIL_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "EMAIL_ADDRESS",
+                "entity_value": "takatsferko@einrot.com",
+                "start_position": 59,
+                "end_position": 81
+            }
+        ],
+        "template_id": 3,
+        "metadata": null
+    },
+    {
+        "full_text": "it's like that since 5/5/1988",
+        "masked": "It's like that since {{DATE_TIME}}",
+        "spans": [
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "5/5/1988",
+                "start_position": 21,
+                "end_position": 29
+            }
+        ],
+        "template_id": 23,
+        "metadata": null
+    },
+    {
+        "full_text": "i saw him last on 9/9/1972",
+        "masked": "I saw him last on {{DATE_TIME}}",
+        "spans": [
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "9/9/1972",
+                "start_position": 18,
+                "end_position": 26
+            }
+        ],
+        "template_id": 24,
+        "metadata": null
+    },
+    {
+        "full_text": "joseph magnin is a design agency based in kenya.",
+        "masked": "{{ORGANIZATION}} is a design agency based in {{GPE}}.",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "kenya",
+                "start_position": 42,
+                "end_position": 48
+            },
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "joseph magnin",
+                "start_position": 0,
+                "end_position": 13
+            }
+        ],
+        "template_id": 18,
+        "metadata": null
+    },
+    {
+        "full_text": "date: 1993-10-30 04:26:12\nname: marisa melo\nphone: 22-56-76-15",
+        "masked": "Date: {{DATE_TIME}}\nName: {{PERSON}}\nPhone: {{PHONE_NUMBER}}",
+        "spans": [
+            {
+                "entity_type": "PHONE_NUMBER",
+                "entity_value": "22-56-76-15",
+                "start_position": 51,
+                "end_position": 62
+            },
+            {
+                "entity_type": "PERSON",
+                "entity_value": "marisa melo",
+                "start_position": 32,
+                "end_position": 43
+            },
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "1993-10-30 04:26:12",
+                "start_position": 6,
+                "end_position": 25
+            }
+        ],
+        "template_id": 26,
+        "metadata": null
+    },
+    {
+        "full_text": "I really need a break. I want to go back home to Gdynia.",
+        "masked": "I really need a break. I want to go back home to {{GPE}}.",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "Gdynia",
+                "start_position": 49,
+                "end_position": 55
+            }
+        ],
+        "template_id": 39,
+        "metadata": null
+    },
+    {
+        "full_text": "the address of big d supermarkets is unit 7786 box 4923\ndpo ae 55384",
+        "masked": "The address of {{ORGANIZATION}} is {{STREET_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "unit 7786 box 4923\ndpo ae 55384",
+                "start_position": 37,
+                "end_position": 68
+            },
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "big d supermarkets",
+                "start_position": 15,
+                "end_position": 33
+            }
+        ],
+        "template_id": 22,
+        "metadata": null
+    },
+    {
+        "full_text": "i will be travelling to estonia next week, so i need my passport to be ready by then",
+        "masked": "I will be travelling to {{GPE}} next week, so I need my passport to be ready by then",
+        "spans": [
+            {
+                "entity_type": "GPE",
+                "entity_value": "estonia",
+                "start_position": 24,
+                "end_position": 31
+            }
+        ],
+        "template_id": 17,
+        "metadata": null
+    },
+    {
+        "full_text": "the restaurant is located at 13168 wingertweg 126\ncarpentras\n, pa\n france 35916. it serves great food.",
+        "masked": "The restaurant is located at {{STREET_ADDRESS}}. It serves great food.",
+        "spans": [
+            {
+                "entity_type": "STREET_ADDRESS",
+                "entity_value": "13168 wingertweg 126\ncarpentras\n, pa\n france 35916",
+                "start_position": 29,
+                "end_position": 79
+            }
+        ],
+        "template_id": 12,
+        "metadata": null
+    },
+    {
+        "full_text": "i saw him last on 8/24/2000",
+        "masked": "I saw him last on {{DATE_TIME}}",
+        "spans": [
+            {
+                "entity_type": "DATE_TIME",
+                "entity_value": "8/24/2000",
+                "start_position": 18,
+                "end_position": 27
+            }
+        ],
+        "template_id": 24,
+        "metadata": null
+    },
+    {
+        "full_text": "have you heard lincoln v. wormald speak yet?",
+        "masked": "have you heard {{PERSON}} speak yet?",
+        "spans": [
+            {
+                "entity_type": "PERSON",
+                "entity_value": "lincoln v. wormald",
+                "start_position": 15,
+                "end_position": 33
+            }
+        ],
+        "template_id": 8,
+        "metadata": null
+    },
+    {
+        "full_text": "i work for checker auto parts",
+        "masked": "I work for {{ORGANIZATION}}",
+        "spans": [
+            {
+                "entity_type": "ORGANIZATION",
+                "entity_value": "checker auto parts",
+                "start_position": 11,
+                "end_position": 29
+            }
+        ],
+        "template_id": 20,
+        "metadata": null
+    },
+    {
+        "full_text": "what's your email? ashleyblackham@jourrapide.com",
+        "masked": "What's your email? {{EMAIL_ADDRESS}}",
+        "spans": [
+            {
+                "entity_type": "EMAIL_ADDRESS",
+                "entity_value": "ashleyblackham@jourrapide.com",
+                "start_position": 19,
+                "end_position": 48
+            }
+        ],
+        "template_id": 33,
+        "metadata": null
+    }
+]

@@ -10,3 +10,4 @@ wandb
 evaluate
 presidio-evaluator
 transformers-interpret
+checklist
